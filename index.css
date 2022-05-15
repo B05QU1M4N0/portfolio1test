@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(img/60286.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: kawoszeh;
+  color: rgb(3, 2, 0);
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  transition: all 1s;
+}
+
+#menu li {
+  display: inline-block;
+  margin: 18px;
+  margin-top: 0%;
+}
+
+#menu a {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  transition: all 1s;
+}
+
+#menu a:hover {
+  color: rgb(63, 61, 61);
+  font-size: 19px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+h4 {
+  display: inline;
+  font-size: 20px;
+  font-family: avenir;
+  margin: 18px;
+}
+
+.card p {
+  background-color: #ffffff;
+  height: 100px;
+  margin: 2rem auto;
+  text-align: center;
+  width: 800px;
+  font-size: 20px;
+}
+button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+button {
+  background: none;
+  color: rgb(5, 3, 3);
+  width: 180px;
+  height: 40px;
+  border: 1px solid #000000;
+  font-size: 18px;
+  border-radius: 20px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+button:focus {
+  outline: none;
+}
+
+button:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  width: 60px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 1s;
+  filter: blur(30px);
+  transform: translateX(-130px) skewX(-15deg);
+}
+button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgb(10, 0, 0);
+  width: 30px;
+  height: 80%;
+  left: 30;
+  top: 0;
+  opacity: 0.5s;
+  filter: blur(30px);
+  transform: translateX(-100px) skewX(-15deg);
+}
+button:hover {
+  background: #050000;
+  cursor: pointer;
+}
+button:hover:before {
+  transform: translateX(300px) skewX(15deg);
+  opacity: 0.6;
+  transition: 0.7s;
+}
+button:hover:after {
+  transform: translateX(300px) skewX(15deg);
+  opacity: 0.1;
+  transition: 0.7s;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 150px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  transition: all 1s;
+}
+
+h5 {
+  background-color: #ffffff;
+  font-size: 20px;
+  font-family: avenir;
+  text-align: left;
+  height: 100px;
+  margin-left: 70px;
+  margin-top: 100px;
+  width: 1330px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  transition: all 1s;
+}
+
+#posters p {
+  font-family: avenir;
+  font-size: 18px;
+}

@@ -1,0 +1,38 @@
+#menu li {
+  display: inline-block;
+  margin: 18px;
+  margin-top: 0%;
+}
+#menu a {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  transition: all 1s;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  transition: all 1s;
+}
+#menu a:hover {
+  color: rgb(63, 61, 61);
+  font-size: 19px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  font-family: kawoszeh;
+  color: rgb(3, 2, 0);
+  text-align: center;
+}
+img {
+  position: ;
+}
